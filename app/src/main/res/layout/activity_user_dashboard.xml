@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D03F51B5"
+    tools:context=".ScreensJava.UserDashboard">
+
+    <TextView
+        android:id="@+id/UserDashboard"
+        android:layout_width="250dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/layout_background"
+        android:gravity="center"
+        android:text="User Dashboard"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUDsetting"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:text="Setting"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUDstart"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="40dp"
+        android:text="Start"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUDsetting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUDinfo"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:text="Account Info"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUDsetting" />
+
+    <Button
+        android:id="@+id/buttonUDback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:contentDescription="NULL" />
+</androidx.constraintlayout.widget.ConstraintLayout>

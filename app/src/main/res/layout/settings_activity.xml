@@ -1,0 +1,250 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D03F51B5"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/Setting"
+        android:layout_width="250dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/layout_background"
+        android:gravity="center"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textDirection="anyRtl"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Sound"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:text="Sound"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Overall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Setting" />
+
+    <TextView
+        android:id="@+id/textViewNotification"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Notification"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/switchNotification"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUnit" />
+
+    <Switch
+        android:id="@+id/switchNotification"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:buttonTint="#F6F1F1"
+        app:layout_constraintStart_toEndOf="@+id/textViewNotification"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarUnit" />
+
+    <TextView
+        android:id="@+id/Announcement"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Announcement"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotification" />
+
+    <Switch
+        android:id="@+id/switchAnnouncement"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchNotification" />
+
+    <TextView
+        android:id="@+id/Overall"
+        android:layout_width="137dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:text="Overall"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/seekBarOverall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sound" />
+
+    <SeekBar
+        android:id="@+id/seekBarOverall"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sound" />
+
+    <SeekBar
+        android:id="@+id/seekBarOverall2"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarOverall" />
+
+    <TextView
+        android:id="@+id/textViewMusic"
+        android:layout_width="137dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:text="Music"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/seekBarOverall2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Overall" />
+
+    <TextView
+        android:id="@+id/textViewUnit"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:text="Unit"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/seekBarUnit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMusic" />
+
+    <SeekBar
+        android:id="@+id/seekBarUnit"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarOverall2" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="New Password"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Announcement" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:text="OK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchAnnouncement" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="75dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:background="#FBFBFB"
+        android:gravity="center"
+        android:text="Change\nPassword"
+        android:textAlignment="center"
+        android:textColorLink="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Announcement" />
+
+    <Button
+        android:id="@+id/buttonCredit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="55dp"
+        android:text="Credit"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:text="Do you really want to change?"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:contentDescription="NULL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCredit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
