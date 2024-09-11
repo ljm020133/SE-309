@@ -39,7 +39,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>  -->
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo(currently not available)</a>
+    <a href="https://youtu.be/q8dlrxKosQ8">View Demo</a>
   <span> · </span>
     <a href="https://github.com/ljm0223/SE309/tree/master">Documentation</a>
   <span> · </span>
