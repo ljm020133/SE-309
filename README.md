@@ -95,7 +95,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.java.com/">Java - Android Studio</a></li>
+    <li><a href="https://www.java.com/">Java</a></li>
   </ul>
 </details>
 
@@ -109,7 +109,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.java.com/">JAVA</a></li>
+    <li><a href="https://www.java.com/">Java</a></li>
   </ul>
 </details>
 
