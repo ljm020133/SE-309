@@ -8,9 +8,9 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+  <img src="SE309.png" alt="logo" width="200" height="auto" />
   <h1>SE309 Android app development class</h1>
-  
+
   <p>
   Application development-focused class with Java Springboot and Android Studio.
   </p>
